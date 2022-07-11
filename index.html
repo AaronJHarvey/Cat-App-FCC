@@ -46,7 +46,7 @@
           <fieldset>
             <legend>Is your cat an indoor or outdoor cat?</legend>
             <label>
-              <input type='radio' id="indoor" name='indoor-outdoor' value="indoor"> Indoor
+              <input type='radio' id="indoor" name='indoor-outdoor' value="indoor" checked> Indoor
             </label>
 
             <label>
@@ -55,7 +55,10 @@
           </fieldset>
           
           <fieldset>
-            
+            <legend>What's your cat's personality?</legend>
+            <input type="checkbox" id="loving" name="personality"> <label for="loving" value="loving" checked>Loving</label>
+            <input type="checkbox" id="lazy" name="personality"><label for="lazy" value="lazy"> Lazy </label>
+            <input type="checkbox" id="energetic" name="personality"><label for="energetic" value="energetic"> Energetic</label>
           </fieldset>
 
           <input type="text" name='catphotourl' placeholder="Cat Photo URL" required>
